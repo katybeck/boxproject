@@ -1,0 +1,757 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" id="sixapart-standard">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <meta http-equiv="Content-Script-Type" content="text/javascript" />
+    <meta http-equiv="imagetoolbar" content="no" />    
+    <title>The Box Project: User Profile: Katy</title>
+    <meta name="generator" content="Movable Type Pro 4.2-en" />
+    
+
+    
+        
+        
+        
+        
+        
+        
+        <link rel="stylesheet" href="../../styles.css" type="text/css" />
+        <link rel="alternate" type="application/atom+xml" title="Atom" href="../../atom.xml" />
+        <link rel="start" href="../../index.html" title="Home" />
+        <script type="text/javascript" src="../../mt.js"></script>
+        <!--
+<rdf:RDF xmlns="http://web.resource.org/cc/"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<Work rdf:about="http://boxproject.katybeck.com">
+<dc:title>The Box Project</dc:title>
+<dc:description></dc:description>
+<license rdf:resource="http://creativecommons.org/licenses/by-nc-nd/3.0/us/" />
+</Work>
+<License rdf:about="http://creativecommons.org/licenses/by-nc-nd/3.0/us/">
+</License>
+</rdf:RDF>
+-->
+
+    
+
+
+<link type="application/atom+xml" rel="alternate" title="Recent Actions from Katy" href="mt-cp.cgi%3F__mode=feed&amp;_type=actions&amp;blog_id=7&amp;id=1" />
+<link type="application/atom+xml" rel="alternate" title="Recent Entries from Katy" href="mt-cp.cgi%3F__mode=feed&amp;_type=posts&amp;blog_id=7&amp;id=1" />
+<link type="application/atom+xml" rel="alternate" title="Comments from Katy" href="mt-cp.cgi%3F__mode=feed&amp;_type=comments&amp;blog_id=7&amp;id=1" />
+<link type="application/atom+xml" rel="alternate" title="Responses to Comments from Katy" href="mt-cp.cgi%3F__mode=feed&amp;_type=replies&amp;blog_id=7&amp;id=1" />
+<script type="text/javascript">
+<!--
+function relations(following, followed, u) {
+    mtSetUser(u);
+    if ( u && u.name )
+        conditional_block(false, 'edit_profile');
+
+    conditional_block(followed, 'followed_1');
+    conditional_block(following, 'following_1');
+}
+//-->
+</script>
+
+    
+    <script type="text/javascript">
+    /* <![CDATA[ */
+    mtAttachEvent('load', mtUpdateScores);
+    mtAttachEvent('usersignin', mtUpdateScores);
+    /* ]]> */
+    </script>
+</head>
+<body id="mt-community-blog" class="mt-profile-view layout-wt">
+    <div id="container">
+        <div id="container-inner">
+            <div id="header">
+                <div id="header-inner">
+                    <div id="header-content">
+
+
+                        <div id="header-name"><a href="../../index.html" accesskey="1">The Box Project</a></div>
+    
+
+                        <div id="header-menu">
+    <ul>
+
+        <li><a href="../../index.html">Home</a></li>
+        <li><a href="../../archives.html">Archives</a></li>
+
+    </ul>
+</div>
+
+
+                        <div class="widget-sign-in widget">
+    <h3 class="widget-header">Sign In</h3>
+    <div id="signin-widget-content" class="widget-content"></div>
+</div>
+<script type="text/javascript">
+/* <![CDATA[ */
+function mtUpdateSignInWidget(u) {
+    var separator = '&nbsp;&nbsp;|&nbsp;&nbsp;';
+    var el = document.getElementById('signin-widget-content');
+    var content = '';
+    if (!el) return;
+    if (u) {
+        if (u && u.is_authenticated) {
+            user = u;
+            mtSaveUser();
+        } else {
+            // user really isn't logged in; so let's do this!
+            return mtSignIn();
+        }
+    } else {
+        u = mtGetUser();
+    }
+    if (u && u.name) {
+        var url;
+        if (u.is_authenticated) {
+            if (u.is_author) {
+                url = 'http://boxproject.katybeck.com/cgi-bin/mt/mt-cp.cgi?__mode=view&blog_id=7';
+                url += '&static=' + encodeURIComponent( location.href );
+            } else {
+                url = u.url;
+            }
+        } else if (u.url) {
+            url = u.url;
+        } else {
+            url = null;
+        }
+        if (url)
+            content += 'You are signed in as <a href="http://boxproject.katybeck.com/cgi-bin/mt/'&#32;+&#32;url&#32;+&#32;'">' + u.name + '</a>';
+        else
+            content += 'You are signed in as ' + u.name + '';
+        if (u.is_author)
+            content += separator + '<a href="mt-cp.cgi%3F__mode=edit&amp;blog_id=7&amp;return_to='%2520+%2520encodeURIComponent(document.URL)%2520+%2520'.html">Edit profile</a>';
+        
+    } else if (u && u.is_banned) {
+        content = 'You do not have permission to sign in to this blog.';
+    } else {
+        content = '<a href="javascript:void(0)" onclick="return mtSignInOnClick(\'signin-widget-content\')">Sign In</a>';
+        content += separator + 'Not a member? <a href="mt-cp.cgi%3F__mode=register&amp;blog_id=7&amp;return_to='%2520+%2520encodeURIComponent(document.URL)%2520+%2520'.html">Register</a>';
+    }
+    el.innerHTML = content;
+}
+mtAttachEvent('load', mtUpdateSignInWidget);
+mtAttachEvent('usersignin', mtUpdateSignInWidget);
+/* ]]> */
+</script>
+
+                        <div class="header-search">
+    <form method="get" action="http://boxproject.katybeck.com/cgi-bin/mt/mt-search.cgi">
+
+        <input type="hidden" name="IncludeBlogs" value="7" />
+
+        <input type="hidden" name="limit" value="20" />
+        <label for="search">Search</label>
+        <input id="search" class="query" name="search" value="" />
+        <input class="submit" type="submit" value="Go" />
+    </form>
+</div>
+
+                   </div>
+                </div>
+            </div>
+            <div id="content">
+                <div id="content-inner">
+                    <div id="alpha">
+                        <div id="alpha-inner">
+
+
+
+<div class="user-pic">
+
+    <img src="../../mt4.2-static/images/default-userpic-90.jpg"
+        width="90" height="90" alt="user-pic" />
+
+</div>
+
+
+<h1 id="page-title">Katy</h1>
+
+<div id="edit_profile" style="display:none" class="inline">
+
+<p><a id="edit_profile_link" href="mt-cp.cgi%3F__mode=view&amp;amp%3Bblog_id=7&amp;amp%3Bid=1.html#">Edit Profile</a></p>
+
+</div>
+<div id="edit_profile_else" style="display:none" class="inline">
+
+<p class="edit-relation">
+    <span id="following-status"></span>
+    <span id="following_1" class="following" style="display:none">
+    You are following Katy. <a id="unfollow-link" href="javascript:void(0)" onclick="script_leave('1');">Unfollow</a>
+    </span>
+<span id="following_1_else" class="following_else" style="display:none">
+    <a id="follow-link" href="javascript:void(0)" onclick="script_follow('1');">Follow</a>
+    </span>
+
+
+&nbsp;</p>
+
+    
+
+    
+
+</div>
+
+
+
+<ul id="profile-data">
+
+    <li><strong>Website:</strong> <a href="http://www.katybeck.com" target="_blank">www.katybeck.com</a></li>
+
+
+</ul>
+
+<ul id="tabs"> 
+    <li><a href="mt-cp.cgi%3F__mode=view&amp;amp%3Bblog_id=7&amp;amp%3Bid=1.html#profile-recent-actions" class="active" onclick="switchTabs('tabs',this)">Recent Actions</a></li> 
+    <li><a href="mt-cp.cgi%3F__mode=view&amp;amp%3Bblog_id=7&amp;amp%3Bid=1.html#profile-comment-threads" class="" onclick="switchTabs('tabs',this)">Comment Threads</a></li> 
+</ul>
+
+<div id="profile-recent-actions" class="tab_content"> 
+    <h3 class="tab_content_label">Recent Actions</h3>
+
+
+    
+    <ul class="recent-actions">
+    
+    
+        <li class="entry icon-entry">
+            Posted <a href="http://www.two-places-at-once.com/2009/05/thesis-show-installation.html">Thesis Show Installation</a> to <a href="http://www.two-places-at-once.com" class="icon-blog">two places at once</a>
+            <div class="excerpt">We installed our work in the convention center yesterday, part of a series of preparations in anticipation of the Graduate Thesis show that will open this Thursday. I set up a camera and tripod and made a couple makeshift videos...</div>
+        </li>
+    
+    
+    
+    
+
+    
+    
+        <li class="entry icon-entry">
+            Posted <a href="http://www.everywhere-at-once.com/chronology/fall-2008/antique-alternative-processes.html">Antique &amp; Alternative Processes</a> to <a href="http://www.everywhere-at-once.com" class="icon-blog">everywhere at once</a>
+            <div class="excerpt"> A study of the early photographic processes that led to the widespread adoption of the silver-based chemistry used in today's film photography. These processes included cyanotype, van dyke prints, gum bichromate, and wet plate collodion. The two images pictured...</div>
+        </li>
+    
+    
+    
+    
+
+    
+    
+        <li class="entry icon-entry">
+            Posted <a href="http://www.everywhere-at-once.com/chronology/fall-2007/songs-of-experience.html">Songs of Experience</a> to <a href="http://www.everywhere-at-once.com" class="icon-blog">everywhere at once</a>
+            <div class="excerpt">Songs of Experience is a poster series addressing the fall from grace of American cultural institutions such as Uncle Sam, Hollywood, and baseball. The challenge was to produce a poster series inspired by events that occurred on September 13 in...</div>
+        </li>
+    
+    
+    
+    
+
+    
+    
+        <li class="entry icon-entry">
+            Posted <a href="http://www.everywhere-at-once.com/chronology/winter-2008/black-white-photography.html">Black + White Photography</a> to <a href="http://www.everywhere-at-once.com" class="icon-blog">everywhere at once</a>
+            <div class="excerpt">In thinking about the ways that the shift from physical to digital has impacted the archive, I investigated the nature of film photography &mdash; learning as much as I could about the craft and process involved in this obsolete art...</div>
+        </li>
+    
+    
+    
+    
+
+    
+    
+        <li class="entry icon-entry">
+            Posted <a href="http://www.everywhere-at-once.com/chronology/spring-2008/multiplicity-type-studies.html">Multiplicity Type Studies</a> to <a href="http://www.everywhere-at-once.com" class="icon-blog">everywhere at once</a>
+            <div class="excerpt">Typographic responses to Italo Calvino's idea of multiplicity from Six Memos for the Next Millennium. Narrative can be multi-faceted. Narrative can be made up of smaller parts. Narrative can be represented in a taxonomic system....</div>
+        </li>
+    
+    
+    
+    
+
+    
+    
+        <li class="entry icon-entry">
+            Posted <a href="http://www.everywhere-at-once.com/chronology/fall-2008/thesis-soundtrack.html">Thesis Soundtrack</a> to <a href="http://www.everywhere-at-once.com" class="icon-blog">everywhere at once</a>
+            <div class="excerpt">What began as a writing exercise with Anne West took a surprisingly circuitous route through the philosophy of perception and ambient electronica. Through the search for music that contained a balance of electronic and traditional instrumentation, a more clarified verbalization...</div>
+        </li>
+    
+    
+    
+    
+
+    
+    
+        <li class="entry icon-entry">
+            Posted <a href="http://www.everywhere-at-once.com/chronology/fall-2008/a-map-of-desks.html">A Map of Desks</a> to <a href="http://www.everywhere-at-once.com" class="icon-blog">everywhere at once</a>
+            <div class="excerpt">A poster that considers the studio environment as an archive filled with a treasure trove of information and context for the current state of graphic design, and maps the relationships we all have to both our digital and analog mark-making...</div>
+        </li>
+    
+    
+    
+    
+
+    
+    
+        <li class="entry icon-entry">
+            Posted <a href="http://www.everywhere-at-once.com/chronology/winter-2008/wintersession-web-design.html">Wintersession Web Design</a> to <a href="http://www.everywhere-at-once.com" class="icon-blog">everywhere at once</a>
+            <div class="excerpt">The course website was central to the day-to-day operation of my class. Each class period began with students logging on to the website, downloading the lecture slides for that day as well as any sample code or design resources I...</div>
+        </li>
+    
+    
+    
+    
+
+    
+    
+        <li class="entry icon-entry">
+            Posted <a href="http://www.everywhere-at-once.com/chronology/spring-2009/small-steps-posters.html">Small Steps Posters</a> to <a href="http://www.everywhere-at-once.com" class="icon-blog">everywhere at once</a>
+            <div class="excerpt">Small Steps is a poster series advocating for small lifestyle changes that conserve resources, energy, or just create more responsible consumers. Each poster is intended to be hung in a high traffic urban area, and consists of a full sheet...</div>
+        </li>
+    
+    
+    
+    
+
+    
+    
+        <li class="entry icon-entry">
+            Posted <a href="http://www.everywhere-at-once.com/chronology/spring-2009/the-thesis.html">In Partial Fulfillment</a> to <a href="http://www.everywhere-at-once.com" class="icon-blog">everywhere at once</a>
+            <div class="excerpt">In the front of my thesis book, there is a signature page with the following words: "Presented in Partial Fulfillment of the Requirements for the Degree of Master  of Fine Arts in Graphic Design in the Department of Graphic Design...</div>
+        </li>
+    
+    
+    
+    
+
+    
+    
+        <li class="entry icon-entry">
+            Posted <a href="http://www.everywhere-at-once.com/projects/bernd-hilla-becher.html">Bernd &amp; Hilla Becher</a> to <a href="http://www.everywhere-at-once.com" class="icon-blog">everywhere at once</a>
+            <div class="excerpt">A collaboration with Lauren Francesconi, this poster series on the subject of Bernd & Hilla Becher grew out of our fascination with pairs. These two photographers worked as a unit for their entire professional lives, producing thousands of finely crafted...</div>
+        </li>
+    
+    
+    
+    
+
+    
+    
+        <li class="entry icon-entry">
+            Posted <a href="http://www.everywhere-at-once.com/projects/the-outsider-zine.html">The Outsider Zine</a> to <a href="http://www.everywhere-at-once.com" class="icon-blog">everywhere at once</a>
+            <div class="excerpt">If an archive is a collection of elements, what happens to the elements that don't make the cut? The Outsider Zine was built off of the idea that while most everyone has at one point felt like an outsider, powerful...</div>
+        </li>
+    
+    
+    
+    
+
+    
+    
+        <li class="entry icon-entry">
+            Posted <a href="http://www.everywhere-at-once.com/projects/an-rss-experiment.html">An RSS Experiment</a> to <a href="http://www.everywhere-at-once.com" class="icon-blog">everywhere at once</a>
+            <div class="excerpt">The RSS Experiment consists of two parts, each exploring how temporal nature of an RSS feed can be used to visualize alarming statistics about climate change. My raw materials were the type of statistic that makes a great sound byte...</div>
+        </li>
+    
+    
+    
+    
+
+    
+    
+        <li class="entry icon-entry">
+            Posted <a href="http://www.everywhere-at-once.com/repository-of-insight/allen-sekula.html">Allen Sekula</a> to <a href="http://www.everywhere-at-once.com" class="icon-blog">everywhere at once</a>
+            <div class="excerpt">The central artefact of this system is not the camera but the filing cabinet....</div>
+        </li>
+    
+    
+    
+    
+
+    
+    
+        <li class="entry icon-entry">
+            Posted <a href="http://www.everywhere-at-once.com/repository-of-insight/christian-boltanski.html">Christian Boltanski</a> to <a href="http://www.everywhere-at-once.com" class="icon-blog">everywhere at once</a>
+            <div class="excerpt">So many years will be spent searching, studying, classifying, before my life is secured, carefully arranged and labelled in a safe place - secure against theft, fire, and nuclear war - from whence it will be possible to take it...</div>
+        </li>
+    
+    
+    
+    
+
+    
+    
+        <li class="entry icon-entry">
+            Posted <a href="http://www.everywhere-at-once.com/repository-of-insight/w-s-merwin.html">W. S. Merwin</a> to <a href="http://www.everywhere-at-once.com" class="icon-blog">everywhere at once</a>
+            <div class="excerpt">It is as though its weight for a moment stood on your heart. You listen for a thud of settlement, a warning creak deep in the intricate joinery. You cannot believe it will hold. How like something dreamed it is,...</div>
+        </li>
+    
+    
+    
+    
+
+    
+    
+        <li class="entry icon-entry">
+            Posted <a href="http://www.everywhere-at-once.com/repository-of-insight/meredith-wilson.html">Meredith Wilson</a> to <a href="http://www.everywhere-at-once.com" class="icon-blog">everywhere at once</a>
+            <div class="excerpt">You can talk, you can talk, You can bicker, you can talk, You can bicker, bicker bicker You can talk all you wantbut is different than it was.No it ain't, no it ain't! But you gotta know the territory!Why it's...</div>
+        </li>
+    
+    
+    
+    
+
+    
+    
+        <li class="entry icon-entry">
+            Posted <a href="http://www.everywhere-at-once.com/repository-of-insight/jessica-helfand.html">Jessica Helfand</a> to <a href="http://www.everywhere-at-once.com" class="icon-blog">everywhere at once</a>
+            <div class="excerpt">...the screen succeeds best when understood as a balance of fundamentally opposing forces: it is all about the tension between structure and freedom....</div>
+        </li>
+    
+    
+    
+    
+
+    
+    
+        <li class="entry icon-entry">
+            Posted <a href="http://www.everywhere-at-once.com/repository-of-insight/merlin-mann.html">Merlin Mann</a> to <a href="http://www.everywhere-at-once.com" class="icon-blog">everywhere at once</a>
+            <div class="excerpt">What makes you feel less bored soon makes you into an addict. What makes you feel less vulnerable can easily turn you into a dick. And the things that are meant to make you feel more connected today often turn...</div>
+        </li>
+    
+    
+    
+    
+
+    
+    
+        <li class="entry icon-entry">
+            Posted <a href="http://www.everywhere-at-once.com/repository-of-insight/dan-hill.html">Dan Hill</a> to <a href="http://www.everywhere-at-once.com" class="icon-blog">everywhere at once</a>
+            <div class="excerpt">This is a new kind of data, collective and individual, aggregated and discrete, open and closed, constantly logging impossibly detailed patterns of behaviour. The behaviour of the street....</div>
+        </li>
+    
+    
+    
+    
+
+    
+    
+        <li class="entry icon-entry">
+            Posted <a href="http://www.everywhere-at-once.com/repository-of-insight/john-stilgoe-1.html">John Stilgoe</a> to <a href="http://www.everywhere-at-once.com" class="icon-blog">everywhere at once</a>
+            <div class="excerpt">Get out now. Not just outside, but beyond the trap of the programmed electronic age so gently closing around so many people at the end of our century....</div>
+        </li>
+    
+    
+    
+    
+
+    
+    
+        <li class="entry icon-entry">
+            Posted <a href="http://www.everywhere-at-once.com/poster-design/dynamic-posters.html">Dynamic Posters</a> to <a href="http://www.everywhere-at-once.com" class="icon-blog">everywhere at once</a>
+            <div class="excerpt">An ongoing investigation of the intersection of live data and poster design....</div>
+        </li>
+    
+    
+    
+    
+
+    
+    
+        <li class="entry icon-entry">
+            Posted <a href="http://www.everywhere-at-once.com/projects/if-you-fall.html">If You Fall...</a> to <a href="http://www.everywhere-at-once.com" class="icon-blog">everywhere at once</a>
+            <div class="excerpt"> If You Fall... was installed in the RISD Store Student Gallery on December 10, 2009. If You Fall.. was a collaborative exhibition curated and designed by the students of Elective Affinities, the graduate elective in graphic design in the...</div>
+        </li>
+    
+    
+    
+    
+
+    
+    
+        <li class="entry icon-entry">
+            Posted <a href="http://www.everywhere-at-once.com/open-research/weather-patterns.html">Weather Patterns</a> to <a href="http://www.everywhere-at-once.com" class="icon-blog">everywhere at once</a>
+            <div class="excerpt">Weather patterns is an in-progress interface to my thesis blog that responds not only to the weather outside, but to the rhythm of speaking and silence in my blog posting. The site makes small talk about the weather, accumulating a...</div>
+        </li>
+    
+    
+    
+    
+
+    
+    
+        <li class="entry icon-entry">
+            Posted <a href="http://www.everywhere-at-once.com/projects/the-box-project.html">The Box Project</a> to <a href="http://www.everywhere-at-once.com" class="icon-blog">everywhere at once</a>
+            <div class="excerpt">The Box Project emerged as a response to the death of my grandmother. My family inherited the task of sorting through an impressive amount of stuff&mdash;physical manifestations of events both big and small in my grandmother's life&mdash;that added up to...</div>
+        </li>
+    
+    
+    
+    
+
+    
+    
+        <li class="entry icon-entry">
+            Posted <a href="http://www.everywhere-at-once.com/in-progress/web-sketches.html">Web Sketches</a> to <a href="http://www.everywhere-at-once.com" class="icon-blog">everywhere at once</a>
+            <div class="excerpt">A set of investigations concerning interface....</div>
+        </li>
+    
+    
+    
+    
+
+    
+    
+        <li class="entry icon-entry">
+            Posted <a href="http://www.everywhere-at-once.com/independent-study/taking-leave-of-nancy.html">Taking Leave of Nancy</a> to <a href="http://www.everywhere-at-once.com" class="icon-blog">everywhere at once</a>
+            <div class="excerpt">Taking Leave of Nancy is book documenting the story of a private edition of Nancy MacIntyre: A Tale of the Prairies, published by my great-grandfather Felix Harris in 1951, and distributed by hand to almost 1800 people over the course...</div>
+        </li>
+    
+    
+    
+    
+
+    
+    
+        <li class="entry icon-entry">
+            Posted <a href="http://www.everywhere-at-once.com/contemplation/two-places-at-once.html">Two Places at Once</a> to <a href="http://www.everywhere-at-once.com" class="icon-blog">everywhere at once</a>
+            <div class="excerpt">When my father pulled our new 9600bps modem out of its box in the summer of 1991, and installed it in the family computer, everything changed. We were not alone in taking that first curious step towards a more networked...</div>
+        </li>
+    
+    
+    
+    
+
+    
+    
+        <li class="entry icon-entry">
+            Posted <a href="http://www.everywhere-at-once.com/contemplation/on-this-day-1836.html">On this day, 1836</a> to <a href="http://www.everywhere-at-once.com" class="icon-blog">everywhere at once</a>
+            <div class="excerpt">"We, therefore, the delegates, with plenary powers, of the people of Texas, in solemn convention assembled, appealing to a candid world for the necessities of our condition, do hereby resolve and declare, that our political connection with the Mexican nation...</div>
+        </li>
+    
+    
+    
+    
+
+    
+    
+        <li class="entry icon-entry">
+            Posted <a href="http://www.everywhere-at-once.com/contemplation/thoughts-from-this-week.html">Revelation of the week</a> to <a href="http://www.everywhere-at-once.com" class="icon-blog">everywhere at once</a>
+            <div class="excerpt">I am beginning to understand that the phrase "coded by hand" does not exist by accident. The process of writing code can be as intimate, and as handmade, as setting a line of type on a press bed. And building...</div>
+        </li>
+    
+    
+    
+    
+    </ul>
+    
+
+
+<img src="../../mt4.2-static/images/status_icons/feed.gif" alt="Subscribe to feed" /> <a href="mt-cp.cgi%3F__mode=feed&amp;_type=actions&amp;blog_id=7&amp;id=1">Recent Actions from Katy</a></p>
+</div>
+
+<div id="profile-comment-threads" class="tab_content hidden"> 
+    <h3 class="tab_content_label">Comment Threads</h3>
+
+  
+      
+    <ul class="recent-actions">  
+     
+        <li class="comment icon-comment">
+            <a href="mt-cp.cgi%3F__mode=view&amp;amp%3Bblog_id=7&amp;amp%3Bid=7.html">Jenny</a> commented on 
+                <a href="../../2008/11/disco-fever-on-christmas.html#comment-609">Disco fever... on Christmas</a>
+            <div class="excerpt">There was a whole box but they were mostly just plain balls, or plastic bells. This was the one with the most character. The box itself was pretty neat! I should photograph it....</div>
+      
+  
+     
+        <li class="comment icon-comment">
+            <a href="mt-cp.cgi%3F__mode=view&amp;amp%3Bblog_id=7&amp;amp%3Bid=7.html">Jenny</a> commented on 
+                <a href="../../2008/11/cute-greeting-cards.html#comment-610">Cute greeting cards</a>
+            <div class="excerpt">Based on the number I've seen in all the boxes so far, she saved every greeting card she (and I) ever received. I didn't look in many of them, but I do recognize the senders, mostly they were from relatives or family friends. I sort of remember she had me send lots of cards out, too, so I guess that's why I got a lot in return....</div>
+      
+  
+     
+        <li class="comment icon-comment">
+            <a href="mt-cp.cgi%3F__mode=view&amp;amp%3Bblog_id=7&amp;amp%3Bid=7.html">Jenny</a> commented on 
+                <a href="../../2008/11/im-a-fan-from-way-back.html#comment-611">I'm a fan from way back</a>
+            <div class="excerpt">Unfortunately I don't know where they came from. She collected them in her early days I think. They were kept at my grandmother's house like maybe they were from her teen and high school days, or maybe college. I was imagining that servicemen would buy them overseas and bring them back as gifts, but that is only a guess. Virginia might know....</div>
+      
+  
+     
+        <li class="comment icon-comment">
+            <a href="mt-cp.cgi%3F__mode=view&amp;amp%3Bblog_id=7&amp;amp%3Bid=7.html">Jenny</a> commented on 
+                <a href="../../2008/11/the-other-box.html#comment-621">The other box</a>
+            <div class="excerpt">This was one of the boxes in her "storage unit," which was really just a big closet off of the hall at her retirement community. Based on the markings on the boxes, it appears that some were packed up in Corpus Christi and moved unopened to Pittsburgh, San Diego and then to Dallas in Fall of 2002....</div>
+      
+  
+     
+        <li class="comment icon-comment">
+            <a href="mt-cp.cgi%3F__mode=view&amp;amp%3Bblog_id=7&amp;amp%3Bid=7.html">Jenny</a> commented on 
+                <a href="../../2008/11/letters-letters-letters.html#comment-622">Letters letters letters</a>
+            <div class="excerpt">How interesting, I need to go back and read some and imagine her speaking the lines. So would you say they were good puns or awful ones? Do you find her humor funny, or is it more composed for the letter recipient in particular?...</div>
+     
+    </ul> 
+      
+  
+<img src="../../mt4.2-static/images/status_icons/feed.gif" alt="Subscribe to feed" /> <a href="mt-cp.cgi%3F__mode=feed&amp;_type=replies&amp;blog_id=7&amp;id=1">Responses to Comments from Katy</a></p>
+
+</div>
+
+
+
+</div>
+                    </div>
+
+                    <div id="beta">
+    <div id="beta-inner">
+
+    
+<div class="widget-following widget">
+    <h3 class="widget-header">Following</h3>
+    <div class="widget-content">
+
+    <p class="note">Not following anyone</p>
+
+    </div>
+</div>
+
+
+
+    <div class="widget-archive widget-archive-days widget">
+    <div class="widget-content">
+<div><a href="../../days/day-1/index.html"><img src="../../mt4.2-static/themes/boxproject-final/day-numbers-1.png" /></a></div>
+ <div><a href="../../days/day-2/index.html"><img src="../../mt4.2-static/themes/boxproject-final/day-numbers-2.png" /></a></div>
+ <div><a href="../../days/day-3/index.html"><img src="../../mt4.2-static/themes/boxproject-final/day-numbers-3.png" /></a></div>
+ <div><a href="../../days/day-4/index.html"><img src="../../mt4.2-static/themes/boxproject-final/day-numbers-4.png" /></a></div>
+ <div><a href="../../days/day-5/index.html"><img src="../../mt4.2-static/themes/boxproject-final/day-numbers-5.png" /></a></div>
+ <div><a href="../../days/day-6/index.html"><img src="../../mt4.2-static/themes/boxproject-final/day-numbers-6.png" /></a></div>
+ <div><a href="../../days/day-7/index.html"><img src="../../mt4.2-static/themes/boxproject-final/day-numbers-7.png" /></a></div>
+ <div><a href="../../days/day-8/index.html"><img src="../../mt4.2-static/themes/boxproject-final/day-numbers-8.png" /></a></div>
+ <div><a href="../../days/day-9/index.html"><img src="../../mt4.2-static/themes/boxproject-final/day-numbers-9.png" /></a></div>
+ <div><a href="../../days/day-10/index.html"><img src="../../mt4.2-static/themes/boxproject-final/day-numbers-10.png" /></a></div>
+ <div><a href="../../days/day-11/index.html"><img src="../../mt4.2-static/themes/boxproject-final/day-numbers-11.png" /></a></div>
+ <div><a href="../../days/day-12/index.html"><img src="../../mt4.2-static/themes/boxproject-final/day-numbers-12.png" /></a></div>
+ <div><a href="../../days/day-13/index.html"><img src="../../mt4.2-static/themes/boxproject-final/day-numbers-13.png" /></a></div>
+ <div><a href="../../days/day-14/index.html"><img src="../../mt4.2-static/themes/boxproject-final/day-numbers-14.png" /></a></div>
+ 
+    </div>
+</div>
+
+<div class="widget-archive widget-archive-days widget">
+    <h3 class="widget-header"><a href="../../at-a-glance.html">[see all days]</a></h3>
+</div>
+
+
+
+
+
+    
+    
+        <div class="widget-archive widget-archive-category widget">
+    <h3 class="widget-header">People</h3>
+    <div class="widget-content">
+
+    <ul>
+         
+            <li><a href="../../people/byron-eugene-beck/index.html">Byron Eugene Beck (0)</a>
+         
+            <li><a href="../../people/dorothy-jean-ernst/index.html">Dorothy Jean Ernst (3)</a>
+         
+            <li><a href="../../people/edgar-ernst/index.html">Edgar Ernst (0)</a>
+         
+            <li><a href="../../people/jennifer-ann-beck/index.html">Jennifer Ann Beck (2)</a>
+         
+            <li><a href="../../people/mildred-bliss/index.html">Mildred Bliss (1)</a>
+         
+            <li><a href="../../people/virginia-ernst/index.html">Virginia Ernst (1)</a>
+           
+    </ul>
+    
+    </div>
+</div>
+
+<div class="widget-archive widget-archive-category widget">
+    <h3 class="widget-header">Places</h3>
+    <div class="widget-content">
+
+    <ul>
+         
+            <li><a href="../../places/corpus-cristi-tx/index.html">Corpus Cristi, TX (0)</a>
+         
+            <li><a href="../../places/omaha-ne/index.html">Omaha, NE (0)</a>
+         
+            <li><a href="../../places/san-antonio-tx/index.html">San Antonio, TX (0)</a>
+           
+    </ul>
+    
+    </div>
+</div>
+
+
+
+
+
+
+        <div class="widget-syndication widget">
+    <div class="widget-content">
+        <ul>
+            <li><img src="../../mt4.2-static/images/status_icons/feed.gif" alt="Subscribe to feed" width="9" height="9" /> <a href="../../atom.xml">Subscribe to this blog's feed</a></li>
+
+        </ul>
+    </div>
+</div>
+<div class="widget-search widget">
+    <h3 class="widget-header">Search</h3>
+    <div class="widget-content">
+        <form method="get" action="http://boxproject.katybeck.com/cgi-bin/mt/mt-search.cgi">
+            <input type="text" id="search" class="ti" name="search" value="" />
+
+            <input type="hidden" name="IncludeBlogs" value="7" />
+            <input type="hidden" name="limit" value="20" />
+
+            <input type="submit" accesskey="4" value="Search" />
+        </form>
+    </div>
+</div>
+
+
+    
+    
+
+    </div>
+</div>
+
+
+
+                </div>
+            </div>
+            <div id="footer">
+                <div id="footer-inner">
+                    <div id="footer-content">
+                        <div class="widget-powered widget">
+                            <div class="widget-content">
+                                <span>Powered by <a href="http://www.movabletype.com/" rel="generator">Movable Type Pro</a></span>
+                            </div>
+                        </div>
+
+                        <div class="widget-creative-commons widget">
+                            <div class="widget-content">
+                                This blog is licensed under a <a href="http://creativecommons.org/licenses/by-nc-nd/3.0/us/">Creative Commons License</a>.
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script type="text/javascript" src="mt-cp.cgi%3F__mode=relations_js&amp;author_id=1&amp;blog_id=7"></script>
+    
+</body>
+</html>
+
+

@@ -1,0 +1,483 @@
+/*
+
+A Six Apart theme adapted for Movable Type default templates
+name: The Box Project - Second Round 
+designer: Katy Harris
+designer_url: http://boxproject.katybeck.com
+layouts: layout-twt
+*/
+
+
+@charset "UTF-8";
+/* CSS Document */
+
+* {
+	border: 0px;
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	font-size: 75%;
+	letter-spacing: normal;
+	/* background-color: #996633; */
+	background: url(kraft-background.jpg) repeat;
+	margin-bottom: 50px;
+}
+
+h1, h2, h3, h4, h5 {
+	font-size: 1em;
+	font-weight: normal;
+	letter-spacing: normal;
+	line-height: 1em;
+	margin-bottom: 0;
+}
+
+#header-name, .asset-name {
+	font-size: 2em;
+	color: #666666;
+	font-family: Georgia, "Times New Roman", serif;
+	text-transform: lowercase;
+	font-weight: bold;
+	font-style: italic;
+	line-height: 1.5em;
+}
+
+#header-name {
+	display: none;
+}
+
+#header-name a {
+	color: #996633;
+	text-decoration: none;
+	font-size: 5em;
+}
+
+.archive-title, .asset-title {
+	font-size: 2.3em;
+	font-family: Georgia, serif;
+	letter-spacing: .01em;
+	color: #FF9900;
+	font-style: italic;
+	font-weight: normal;
+	text-transform: lowercase;
+	padding-left: 90px;
+	padding-bottom: 10px;
+}
+
+a, a:link, a:visited, a:active, a:hover {
+	color: #666666;	
+}
+
+/*------------------------------------
+Basic ID structure
+-------------------------------------*/
+#container {
+	position: absolute;
+	width: 1000px;
+	height: 300px;
+}
+
+#container-inner {
+	position: absolute;
+	width: 1000px;
+	margin: 0px 0px 20px 0px;
+}
+
+#header {
+	position: relative;
+	height: 60px;
+	text-align: left;
+}
+
+#content {
+	position: relative;
+}
+
+#footer {
+	display: none;
+	position: relative;
+}
+
+/*------------------------------------
+Styles for header
+-------------------------------------*/
+#header #header-menu, #header #header-name, .widget-sign-in, .widget-search, .header-search, .widget-syndication, .widget-archive-category {
+	display: none;
+}
+
+
+/*------------------------------------
+Styles for #content #alpha
+-------------------------------------*/
+#content #alpha {
+	position: absolute;
+	margin-left: 370px;
+	margin-bottom: 50px;
+	width: 700px;
+}
+
+#entry-jennyb {
+	padding: 20px;
+	width: 500px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	background: #F8F8F8;
+	/* border-left: 20px solid #FF6633; */
+	/* border-top: 20px solid #FF6633; */
+}
+
+#entry-katybeck {
+	padding: 20px;
+	width: 500px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	background: #F8F8F8;
+	/* border-right: 20px solid #339999; */
+	/* border-top: 20px solid #339999; */
+}
+
+#entry-katybeck.mt-day-archive, 
+#entry-jennyb.mt-day-archive {
+	background: #F8F8F8;
+	position: absolute;
+	top: 40px;
+	left: 0px;
+	width: 350px;
+}
+
+#entry-katybeck.mt-day-archive {
+	left: 420px;
+}
+
+#entry-katybeck.mt-day-archive .asset-entry-image img, 
+#entry-jennyb.mt-day-archive .asset-entry-image img {
+	width: 350px;
+	height: auto;
+}
+
+#entry-katybeck.mt-day-archive .asset-header,
+#entry-jennyb.mt-day-archive .asset-header {
+	margin-top: 10px;
+}
+
+#entry-katybeck.mt-day-archive .asset-body, #entry-katybeck.mt-day-archive .asset-header,
+#entry-jennyb.mt-day-archive .asset-body, #entry-jennyb.mt-day-archive .asset-header {
+	
+}
+
+#entry-katybeck.mt-day-archive .asset-body img,
+#entry-jennyb.mt-day-archive .asset-body img {
+	width: 320px;
+	height: auto;
+	background: #CCCCCC;
+}
+
+.mt-day-archive .asset-comments {
+	color: #666666;
+}
+
+.mt-day-archive .asset-comments p {
+	margin-bottom: 10px;
+}
+
+h2.asset-name, #comments h2, .mt-page-archive h2 {
+	font-size: 2em;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-weight: bold;
+	font-style: italic;
+	line-height: 1.3em;
+}
+
+h2.asset-name a {
+	text-decoration: none;
+}
+
+#entry-katybeck h2.asset-name a, .comment-katybeck {
+	color: #339999;
+}
+
+#entry-jennyb h2.asset-name a, .comment-jennyb  {
+	color: #FF6633;
+}
+
+.user-pic {
+	display: none;
+}
+
+.asset-meta {
+	font-family: Arial, sans-serif;
+	text-transform: uppercase;
+	font-size: .8em;
+	color: #999999;
+	letter-spacing: .01em;
+	line-height: 1.5em;
+	margin-bottom: 15px;
+	padding-bottom: 15px;
+	border-bottom: thin dotted #999999;
+}
+
+.asset-body, .comments-open-content, .mt-page-archive #alpha-inner, .mt-day-archive .asset-comments {
+	font-size: 1.2em;
+	font-family: Tahoma, Helvetica, Arial, sans-serif;
+	line-height: 1.2em;
+}
+
+.asset-body {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #666666;
+	font-size: 1.5em;
+}
+
+.asset-body p, .comments-open-content {
+	margin-bottom: 10px;
+}
+
+.asset-body img {
+	margin: 0px 0px 10px 0px;
+}
+
+.asset-footer {
+	border: 1px solid gray;
+	display: none;
+}
+
+
+/*------------------------------------
+Styles for #content #comments
+-------------------------------------*/
+#comments {
+	margin-top: -20px;
+	margin-left: 20px;
+	padding: 20px;
+	background: #FFF;
+	width: 500px;
+}
+
+#comments h2 {
+	color: #737373;
+}
+
+#comments .comments-open-content, #comments .comments-content {
+	margin: 10px;
+	font-size: 1em;
+}
+
+#comments .comments-open-content div {
+	margin-bottom: 10px;
+}
+
+#comments .comments-open-content input, #comments .comments-open-content textarea {
+	border: 1px solid #666666;
+}
+
+#comments .asset-meta {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+
+#comments .comment {
+	margin-bottom: 10px;
+}
+
+#comments .nested {
+	margin-left: 20px;
+}
+
+#comments .reply-to-link {
+	margin-bottom: 5px;
+	display: block;
+}
+
+
+/*------------------------------------
+Styles for #content #beta (left sidebar)
+-------------------------------------*/
+#beta {
+
+	position: absolute;
+	top: 180px;
+	left: 42px;
+	width: 250px;
+}
+
+#beta #beta-inner {
+}
+
+/*------------------------------------
+Styles for #content #gamma (right sidebar)
+-------------------------------------*/
+#gamma {
+	position: absolute;
+	top: 170px;
+	margin-left: 340px;
+	width: 250px;
+}
+
+#gamma #gamma-inner {
+}
+
+/* lets do all the type together*/
+#beta, #gamma {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	line-height: 14pt;
+}
+
+
+/*------------------------------------
+Styles for .widgets (in two left sidebars)
+-------------------------------------*/
+
+.widget {
+	margin-bottom: 20px;
+	padding: 20px;
+}
+ .widget h3 {
+ 	font-size: 1.2em;
+	font-weight: bold;
+	font-style: italic;
+	color: #FFF;
+	margin-bottom: 5pt;
+	font-family: Georgia, "Times New Roman", Times, serif;
+ }
+ 
+ .widget .widget-content {
+ 	color: #CCCCCC;
+	margin-left: 10px;
+	font-size: .9em;
+	text-transform: lowercase;
+ }
+ 
+ .widget-content li {
+ 	list-style: none;
+ }
+ 
+ .widget-content li li {
+ 	color: #999999;
+ }
+ 
+ .widget-content ul ul {
+	margin-left: 10px;
+	margin-bottom: 10px;
+ }
+ 
+ .widget a {
+ 	color: #FFF;
+ }
+ 
+ /*------------------------------------
+Styles for days listing - custom widget
+-------------------------------------*/
+.widget-archive-days {
+	height: 320px;
+	width: 350px;
+	padding: 0px;
+}
+
+.widget-archive-days .widget-header {
+	margin-left: 20px;
+}
+
+.widget-archive-days p.filterbutton {
+	padding: 8px 8px 5px 8px;
+	background: #FF9900;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: .9em;
+	font-weight: normal;
+	text-transform: uppercase;
+	font-style: normal;
+	width: auto;
+	letter-spacing: .04em;
+	float: left;
+	margin-left: 19px;
+	margin-top: 5px;
+}
+
+.widget-archive-days .widget-content div {
+	display: inline;
+	float: left;
+	margin: 10px;
+	background: #FF9900;
+}
+
+.widget-archive-days .widget-content div img {
+	width: 50px;
+	height: auto;
+	border-right: thin solid #CCCCCC;
+	border-bottom: thin solid #CCC;
+}
+
+/*------------------------------------
+Styles for footer
+-------------------------------------*/
+.content-nav {
+	display: none;
+}
+
+/*------------------------------------
+Styles for at a glance stuff
+-------------------------------------*/
+.ataglance {
+	float: left;
+	margin: 10px;
+	z-index: 5;
+}
+
+.ataglance .ataglance-title {
+	display: none;
+	font-size: .8em;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #FF9900;
+	width: 100px;
+}
+
+.ataglance div img {
+	height: 75px;
+	width: auto;
+	background-color: #FFF;
+	padding: 10px;
+	z-index: 10;
+}
+
+
+/*------------------------------------
+Styles for main intro page!
+-------------------------------------*/
+
+img.intro-image {
+	position: absolute;
+	top:-100px;
+	left: -150px;
+	z-index:0;
+}
+
+.author-jennyb, .author-katybeck {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 1em;
+	color: #FFF;
+}
+
+.author-jennyb a, .author-katybeck a {
+	color: white;
+}
+
+.author-jennyb {
+	position: absolute;
+	top: 530px;
+	left: 363px;
+	width: 200px;
+	border-top: thin solid white;
+	padding-top: 10px;
+}
+
+.author-katybeck {
+	position: absolute;
+	top: 390px;
+	left: 600px;
+	width: 200px;
+	border-top: thin solid white;
+	padding-top: 10px;
+}

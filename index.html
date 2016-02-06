@@ -1,0 +1,357 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" id="sixapart-standard">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <meta http-equiv="Content-Script-Type" content="text/javascript" />
+    <meta http-equiv="imagetoolbar" content="no" />    
+    <title>The Box Project</title>
+    <meta name="generator" content="Movable Type Pro 4.2-en" />
+    
+
+    
+        
+        
+        
+        
+        
+        
+        <link rel="stylesheet" href="styles.css" type="text/css" />
+        <link rel="alternate" type="application/atom+xml" title="Atom" href="atom.xml" />
+        <link rel="start" href="index.html" title="Home" />
+        <script src="http://code.jquery.com/jquery-latest.js" type="text/javascript"></script>
+        <script type="text/javascript" src="mt.js"></script>
+        <!--
+<rdf:RDF xmlns="http://web.resource.org/cc/"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<Work rdf:about="http://boxproject.katybeck.com">
+<dc:title>The Box Project</dc:title>
+<dc:description></dc:description>
+<license rdf:resource="http://creativecommons.org/licenses/by-nc-nd/3.0/us/" />
+</Work>
+<License rdf:about="http://creativecommons.org/licenses/by-nc-nd/3.0/us/">
+</License>
+</rdf:RDF>
+-->
+
+    
+
+
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="rsd.xml" />
+
+    
+    <script type="text/javascript">
+    /* <![CDATA[ */
+    mtAttachEvent('load', mtUpdateScores);
+    mtAttachEvent('usersignin', mtUpdateScores);
+    /* ]]> */
+    </script>
+</head>
+<body id="mt-community-blog" class="mt-main-index layout-twt">
+    <div id="container">
+        <div id="container-inner">
+            <div id="header">
+                <div id="header-inner">
+                    <div id="header-content">
+
+                        <div id="header-image"><a href="index.html" class="header-link"><img src="http://www.katybeck.com/mt4.2-static/themes/boxproject-final/header-theboxproject.png" /></a></div>
+
+
+                        <h1 id="header-name"><a href="index.html" accesskey="1">The Box Project</a></h1>
+    
+
+                        <div id="header-menu">
+    <ul>
+
+        <li><a href="index.html">Home</a></li>
+        <li><a href="archives.html">Archives</a></li>
+
+    </ul>
+</div>
+
+
+                        <div class="widget-sign-in widget">
+    <h3 class="widget-header">Sign In</h3>
+    <div id="signin-widget-content" class="widget-content"></div>
+</div>
+<script type="text/javascript">
+/* <![CDATA[ */
+function mtUpdateSignInWidget(u) {
+    var separator = '&nbsp;&nbsp;|&nbsp;&nbsp;';
+    var el = document.getElementById('signin-widget-content');
+    var content = '';
+    if (!el) return;
+    if (u) {
+        if (u && u.is_authenticated) {
+            user = u;
+            mtSaveUser();
+        } else {
+            // user really isn't logged in; so let's do this!
+            return mtSignIn();
+        }
+    } else {
+        u = mtGetUser();
+    }
+    if (u && u.name) {
+        var url;
+        if (u.is_authenticated) {
+            if (u.is_author) {
+                url = 'http://boxproject.katybeck.com/cgi-bin/mt/mt-cp.cgi?__mode=view&blog_id=7';
+                url += '&static=' + encodeURIComponent( location.href );
+            } else {
+                url = u.url;
+            }
+        } else if (u.url) {
+            url = u.url;
+        } else {
+            url = null;
+        }
+        if (url)
+            content += 'You are signed in as <a href="http://boxproject.katybeck.com/'&#32;+&#32;url&#32;+&#32;'">' + u.name + '</a>';
+        else
+            content += 'You are signed in as ' + u.name + '';
+        if (u.is_author)
+            content += separator + '<a href="cgi-bin/mt/mt-cp.cgi%3F__mode=edit&amp;blog_id=7&amp;return_to='%2520+%2520encodeURIComponent(document.URL)%2520+%2520'.html">Edit profile</a>';
+        
+        content += separator + '<a href="javascript:void(0)" onclick="return mtSignOutOnClick()">Sign out</a>';
+        
+    } else if (u && u.is_banned) {
+        content = 'You do not have permission to sign in to this blog.';
+    } else {
+        content = '<a href="javascript:void(0)" onclick="return mtSignInOnClick(\'signin-widget-content\')">Sign In</a>';
+        content += separator + 'Not a member? <a href="cgi-bin/mt/mt-cp.cgi%3F__mode=register&amp;blog_id=7&amp;return_to='%2520+%2520encodeURIComponent(document.URL)%2520+%2520'.html">Register</a>';
+    }
+    el.innerHTML = content;
+}
+mtAttachEvent('load', mtUpdateSignInWidget);
+mtAttachEvent('usersignin', mtUpdateSignInWidget);
+/* ]]> */
+</script>
+
+                        <div class="header-search">
+    <form method="get" action="http://boxproject.katybeck.com/cgi-bin/mt/mt-search.cgi">
+
+        <input type="hidden" name="IncludeBlogs" value="7" />
+
+        <input type="hidden" name="limit" value="20" />
+        <label for="search">Search</label>
+        <input id="search" class="query" name="search" value="" />
+        <input class="submit" type="submit" value="Go" />
+    </form>
+</div>
+
+                   </div>
+                </div>
+            </div>
+            <div id="content">
+                <div id="content-inner">
+                    <div id="alpha">
+                        <div id="alpha-inner">
+
+
+<img class="intro-image" src="mt4.2-static/themes/boxproject-final/main-page-diagram.png" />
+
+<div class="author-jennyb">
+
+ 
+
+ Commented on <a href="2008/11/family-dinner.html#comment-627">Family dinner</a><br />
+
+
+
+ 
+
+ Commented on <a href="2008/11/peo-founders-day.html#comment-626">Peo Founders Day</a><br />
+
+
+
+ 
+
+ Commented on <a href="2008/11/bud.html#comment-625">bud</a><br />
+
+
+
+ 
+
+ Commented on <a href="2008/11/decisive-moment.html#comment-624">Decisive moment</a><br />
+
+
+
+ 
+
+ Commented on <a href="2008/11/carlsbad-caverns.html#comment-623">Carlsbad Caverns</a><br />
+
+
+
+</div>
+
+<div class="author-katybeck">
+
+    
+     Commented on <a href="2008/11/family-dinner.html#comment-627">Family dinner</a><br />
+    
+     Commented on <a href="2008/11/peo-founders-day.html#comment-626">Peo Founders Day</a><br />
+    
+     Commented on <a href="2008/11/bud.html#comment-625">bud</a><br />
+    
+     Commented on <a href="2008/11/decisive-moment.html#comment-624">Decisive moment</a><br />
+    
+     Commented on <a href="2008/11/carlsbad-caverns.html#comment-623">Carlsbad Caverns</a><br />
+    
+
+</div>
+
+
+<div class="content-nav">
+    <div class="create-entry"><a href="create-entry.html">Create Entry</a></div>
+
+
+
+    <a href="archives.html">Archives</a>
+
+
+</div>
+
+
+</div>
+                    </div>
+
+                    <div id="beta">
+    <div id="beta-inner">
+
+    
+
+    <div class="widget-archive widget-archive-days widget">
+    <div class="widget-content">
+<div><a href="days/day-1/index.html"><img src="mt4.2-static/themes/boxproject-final/day-numbers-1.png" /></a></div>
+ <div><a href="days/day-2/index.html"><img src="mt4.2-static/themes/boxproject-final/day-numbers-2.png" /></a></div>
+ <div><a href="days/day-3/index.html"><img src="mt4.2-static/themes/boxproject-final/day-numbers-3.png" /></a></div>
+ <div><a href="days/day-4/index.html"><img src="mt4.2-static/themes/boxproject-final/day-numbers-4.png" /></a></div>
+ <div><a href="days/day-5/index.html"><img src="mt4.2-static/themes/boxproject-final/day-numbers-5.png" /></a></div>
+ <div><a href="days/day-6/index.html"><img src="mt4.2-static/themes/boxproject-final/day-numbers-6.png" /></a></div>
+ <div><a href="days/day-7/index.html"><img src="mt4.2-static/themes/boxproject-final/day-numbers-7.png" /></a></div>
+ <div><a href="days/day-8/index.html"><img src="mt4.2-static/themes/boxproject-final/day-numbers-8.png" /></a></div>
+ <div><a href="days/day-9/index.html"><img src="mt4.2-static/themes/boxproject-final/day-numbers-9.png" /></a></div>
+ <div><a href="days/day-10/index.html"><img src="mt4.2-static/themes/boxproject-final/day-numbers-10.png" /></a></div>
+ <div><a href="days/day-11/index.html"><img src="mt4.2-static/themes/boxproject-final/day-numbers-11.png" /></a></div>
+ <div><a href="days/day-12/index.html"><img src="mt4.2-static/themes/boxproject-final/day-numbers-12.png" /></a></div>
+ <div><a href="days/day-13/index.html"><img src="mt4.2-static/themes/boxproject-final/day-numbers-13.png" /></a></div>
+ <div><a href="days/day-14/index.html"><img src="mt4.2-static/themes/boxproject-final/day-numbers-14.png" /></a></div>
+ 
+    </div>
+</div>
+
+<div class="widget-archive widget-archive-days widget">
+    <h3 class="widget-header"><a href="at-a-glance.html">[see all days]</a></h3>
+</div>
+
+
+
+
+
+    
+    
+        <div class="widget-archive widget-archive-category widget">
+    <h3 class="widget-header">People</h3>
+    <div class="widget-content">
+
+    <ul>
+         
+            <li><a href="people/byron-eugene-beck/index.html">Byron Eugene Beck (0)</a>
+         
+            <li><a href="people/dorothy-jean-ernst/index.html">Dorothy Jean Ernst (3)</a>
+         
+            <li><a href="people/edgar-ernst/index.html">Edgar Ernst (0)</a>
+         
+            <li><a href="people/jennifer-ann-beck/index.html">Jennifer Ann Beck (2)</a>
+         
+            <li><a href="people/mildred-bliss/index.html">Mildred Bliss (1)</a>
+         
+            <li><a href="people/virginia-ernst/index.html">Virginia Ernst (1)</a>
+           
+    </ul>
+    
+    </div>
+</div>
+
+<div class="widget-archive widget-archive-category widget">
+    <h3 class="widget-header">Places</h3>
+    <div class="widget-content">
+
+    <ul>
+         
+            <li><a href="places/corpus-cristi-tx/index.html">Corpus Cristi, TX (0)</a>
+         
+            <li><a href="places/omaha-ne/index.html">Omaha, NE (0)</a>
+         
+            <li><a href="places/san-antonio-tx/index.html">San Antonio, TX (0)</a>
+           
+    </ul>
+    
+    </div>
+</div>
+
+
+
+
+
+
+        <div class="widget-syndication widget">
+    <div class="widget-content">
+        <ul>
+            <li><img src="mt4.2-static/images/status_icons/feed.gif" alt="Subscribe to feed" width="9" height="9" /> <a href="atom.xml">Subscribe to this blog's feed</a></li>
+
+        </ul>
+    </div>
+</div>
+<div class="widget-search widget">
+    <h3 class="widget-header">Search</h3>
+    <div class="widget-content">
+        <form method="get" action="http://boxproject.katybeck.com/cgi-bin/mt/mt-search.cgi">
+            <input type="text" id="search" class="ti" name="search" value="" />
+
+            <input type="hidden" name="IncludeBlogs" value="7" />
+            <input type="hidden" name="limit" value="20" />
+
+            <input type="submit" accesskey="4" value="Search" />
+        </form>
+    </div>
+</div>
+
+
+    
+    
+
+    </div>
+</div>
+
+
+
+                </div>
+            </div>
+            <div id="footer">
+                <div id="footer-inner">
+                    <div id="footer-content">
+                        <div class="widget-powered widget">
+                            <div class="widget-content">
+                                <span>Powered by <a href="http://www.movabletype.com/" rel="generator">Movable Type Pro</a></span>
+                            </div>
+                        </div>
+
+                        <div class="widget-creative-commons widget">
+                            <div class="widget-content">
+                                This blog is licensed under a <a href="http://creativecommons.org/licenses/by-nc-nd/3.0/us/">Creative Commons License</a>.
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
+
